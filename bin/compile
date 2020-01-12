@@ -39,4 +39,5 @@ EOF
 mv "$RENAME_DIR" exiftool
 cd             ./exiftool
 echo "Installed: "`ls exif*` | indent
+echo "Setting up config:" `/sbin/ldconfig` | indent
 echo
